@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Project Management</legend>
+    <form action="project.html" method="post">
+    <table bgcolor="skyblue">
+        <tr>
+            <td><label for="Project Name">Project Name:</label> </td>
+            <td><input type="text" id="Project Name" required placeholder="project name"></td>
+        </tr>
+        <tr>
+            <td><label for="Assigned to">Assigned to:</label>  </td>
+            <td>
+                <select name="person" id="projectAssigned">
+                    <option value="Er Marry Petision">Er Marry Petision</option>
+                    <option value="Er Deepak Bhusan">Er Deepak Bhusan</option>
+                    <option value="Er Robert Watson">Er Robert Watson</option>
+                             </select>
+            </td>
+        </tr>
+        <tr> 
+            <td><lable for="Start Date">Start Date</lable>  </td>
+            <td><input type="date" name="Start Date" id="SDate">  </td>
+        </tr>
+        <tr>
+            <td><lable for="End Date">End Date</lable>  </td>
+            <td><input type="date" name="End Date" id="EDate">  </td>
+        </tr>
+        <tr>
+            <td lable for="Priority">Priority</td>
+            <td>
+                High<input type="radio" checked name="priority">
+                Average<input type="radio" checked name="priority">
+                Low<input type="radio" checked name="priority">
+            </td>
+        </tr>
+        <tr>
+        <td><label for="Description">Description</label> </td>
+        <td>
+            <textarea name="Description" id="Description"></textarea>
+        </td></tr>
+        <tr>
+            <td><label for="color">color</label></td>
+            <td><input type="color" value="color"></td>
+        </tr>
+        <tr>
+            <td><label for="range">Range</label></td>
+            <td><input type="range" value="range"> </td>
+        </tr>
+        <tr>
+           <td><button type="submit">submit</button></td> 
+           <td><button type="reset">Reset</button></td>
+        </tr>
+        
+    </table>
+</body>
+</form>
+</fieldset>
+</html>
